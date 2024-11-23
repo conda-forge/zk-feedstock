@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/mickael-menu/zk/archive/v{{ version }}.tar.gz
+  url: https://github.com/zk-org/zk/archive/v{{ version }}.tar.gz
   sha256: 563331e1f5a03b4dd3a4ff642cc205cc7b6c3c350c98f627a3273067e7ec234c
 
 build:
@@ -25,13 +25,13 @@ test:
     - zk --help
 
 about:
-  home: https://github.com/mickael-menu/zk
+  home: https://github.com/zk-org/zk
   license: GPL-3.0-only
   license_file:
     - LICENSE
     - license-files/
   summary: Plain text note-taking assistant
-  dev_url: https://github.com/mickael-menu/zk
+  dev_url: https://github.com/zk-org/zk
 
 extra:
   recipe-maintainers:

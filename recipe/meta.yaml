@@ -1,5 +1,5 @@
 {% set name = "zk" %}
-{% set version = "0.14.1" %}
+{% set version = "0.14.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/zk-org/zk/archive/v{{ version }}.tar.gz
-  sha256: 563331e1f5a03b4dd3a4ff642cc205cc7b6c3c350c98f627a3273067e7ec234c
+  sha256: 34bfc4d58e822689c3a9d06ee9659f24c3623ceac70c94f0eb76bf48c21f9193
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:

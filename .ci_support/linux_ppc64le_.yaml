@@ -7,7 +7,7 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-ppc64le:alma9
 icu:
-- '73'
+- '75'
 sqlite:
 - '3'
 target_platform:

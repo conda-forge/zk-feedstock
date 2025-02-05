@@ -3,13 +3,13 @@ About zk-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zk-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mickael-menu/zk
+Home: https://github.com/zk-org/zk
 
 Package license: GPL-3.0-only
 
 Summary: Plain text note-taking assistant
 
-Development: https://github.com/mickael-menu/zk
+Development: https://github.com/zk-org/zk
 
 Current build status
 ====================

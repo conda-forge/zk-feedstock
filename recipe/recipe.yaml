@@ -1,0 +1,42 @@
+schema_version: 1
+
+context:
+  version: 0.15.1
+
+package:
+  name: zk
+  version: ${{ version }}
+
+source:
+  url: https://github.com/zk-org/zk/archive/v${{ version }}.tar.gz
+  sha256: 1f30aae497476342203b3cecb63edd92faf4d837860a894fdee4b372184e9ec4
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - ${{ compiler('go-nocgo') }}
+    - go-licenses
+  host:
+    - if: linux
+      then:
+        - icu
+        - sqlite
+
+tests:
+  - script:
+      - zk --help
+
+about:
+  license: GPL-3.0-only
+  license_file:
+    - LICENSE
+    - license-files/
+  summary: Plain text note-taking assistant
+  homepage: https://github.com/zk-org/zk
+  repository: https://github.com/zk-org/zk
+
+extra:
+  recipe-maintainers:
+    - danielnachun

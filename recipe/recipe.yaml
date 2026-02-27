@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/zk-org/zk/archive/v${{ version }}.tar.gz
-  sha256: 2a035c2fe982791bdf02650da777f964ec836371caeb24d6347df413888cb599
+  sha256: cd8524ea3be81784336706f68edaafe9b4f21d05e0d7a968065cf685e9afefc1
 
 build:
   number: 1

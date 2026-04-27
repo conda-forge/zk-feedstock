@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.15.2"
+  version: "0.15.3"
 
 package:
   name: zk
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/zk-org/zk/archive/v${{ version }}.tar.gz
-  sha256: cd8524ea3be81784336706f68edaafe9b4f21d05e0d7a968065cf685e9afefc1
+  sha256: 3cd5b011db7b587fd53d99040d117b3f52f0dd8524bae2a35bc9ea4b9590e754
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
